@@ -6,7 +6,7 @@
 
 section{
 	text-align:center;
-	background-color: yellow;
+	background-color: rgb(255, 230, 0);
 	width: 400px;
 	box-shadow: 2px 2px 10px black;
 	margin: auto;
@@ -17,13 +17,22 @@ section{
 
 .display{
 	width:80%; 
-	height: 30px;  
-	margin-bottom: 10px;
-	margin-top: 20px;                                                                                                                                                                          
+	height: 40px;  
+	margin-bottom: 30px;
+	margin-top: 30px;  
+	color: white;                                                                                                                                                                        
+	background-color: black;
+	border: none;
+	font-weight: bold;
+	font-size: 26px;
+	padding: 10px;
+	text-align: right;
 }
 
 .teclado{
 	margin: 0;
+	padding: 0;
+	padding-bottom: 30px;
 }
 
 .numeros{
@@ -48,10 +57,19 @@ section{
 #zero{
 	width: 158px;
 }
+.limpar{
+	color: white;
+	font-weight: bold;
+	font-size: 26px;
+	background-color: black;
+	width: 104px;
+	height: 50px;
+	border: none;
+}
 
 .linha{
 	display: block;
-	margin: 0;
+	
 }
 
 
