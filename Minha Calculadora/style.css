@@ -12,27 +12,36 @@ section{
 	margin: auto;
 	margin-top: 10vh;
 	margin-bottom: 10vh;
-
+	padding-bottom: 30px;
 }
 
 .display{
 	width:80%; 
 	height: 40px;  
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 	margin-top: 30px;  
 	color: white;                                                                                                                                                                        
 	background-color: black;
 	border: none;
+	border-radius: 10px;
 	font-weight: bold;
 	font-size: 26px;
 	padding: 10px;
 	text-align: right;
 }
 
+.display:focus{
+	box-shadow: 0 0 0 0;
+	outline: 0;
+}
+
 .teclado{
-	margin: 0;
+	margin: auto;
 	padding: 0;
-	padding-bottom: 30px;
+	padding-bottom: 0;
+	background-color: black;
+	width: 212px;
+	
 }
 
 .numeros{
@@ -42,9 +51,21 @@ section{
 	background-color: black;
 	width: 50px;
 	height: 50px;
-	border: none;
-	
+	border: none;	
 }
+
+.numeros:hover{
+	color: black;
+	background-color: white;
+	cursor: pointer;
+}
+.numeros:active{
+	color: white;
+	background-color: black;
+	border: none;
+}
+
+
 .conta{
 	color: white;
 	font-weight: bold;
@@ -54,6 +75,19 @@ section{
 	height: 50px;
 	border: none;
 }
+
+.conta:hover{
+	color: black;
+	background-color: white;
+	cursor: pointer;
+}
+
+.conta:active{
+	color: white;
+	background-color: black;
+	border: none;
+}
+
 #zero{
 	width: 158px;
 }
@@ -64,6 +98,17 @@ section{
 	background-color: black;
 	width: 104px;
 	height: 50px;
+	border: none;
+}
+
+.limpar:hover{
+	color: black;
+	background-color: white;
+	cursor: pointer;
+}
+.limpar:active{
+	color: white;
+	background-color: black;
 	border: none;
 }
 
